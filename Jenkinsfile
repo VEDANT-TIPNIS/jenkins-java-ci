@@ -15,7 +15,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                echo 'Stage 2: Building application...'
+                echo 'Stage 2: Building Java application...'
                 // Add your build commands here (e.g., bat 'mvn clean compile')
             }
         }
